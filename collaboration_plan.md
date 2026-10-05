@@ -6,6 +6,10 @@ To ensure all 3 Antigravity agents can work seamlessly together, the work is div
 
 ### 👑 Agent 1: Lead, QA & Integrator
 **Role:** Project Manager, Code Reviewer, and Integration Tester.
+**Access:** Full access to review **and modify** Frontend and Backend code.
+- **⚠️ Prompt Prefix Rule:** Agent 1 must start every prompt with one of the following:
+  - `/frontend` — to review or modify Frontend code (`app/`, `src/components/`)
+  - `/backend` — to review or modify Backend code (`supabase/`, `src/services/`)
 - **Tasks:**
   1. Initialize the project base and manage the overarching architecture.
   2. Review code pushed by Frontend and Backend agents to ensure they connect properly.
