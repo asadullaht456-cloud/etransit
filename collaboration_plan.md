@@ -38,6 +38,10 @@ To ensure all 3 Antigravity agents can work seamlessly together, the work is div
 ---
 
 ## 🛠️ Rules for Collaboration
-1. **Clear Boundaries:** Frontend (Agent 2) handles anything in `app/` and `src/components/`. Backend (Agent 3) handles anything in `supabase/` and `src/services/`.
-2. **API Contracts:** Agent 3 must define the exact input/output of functions (e.g., QR deduction) so Agent 2 can build the UI without waiting.
-3. **Lead Check:** Agent 1 will regularly test the integration points between Agent 2 and Agent 3 to ensure everything runs smoothly.
+1. **🚀 Onboarding — State Your Dev Number First:** When a collaborator starts working on the project, they **must** declare their agent/dev number (1, 2, or 3) before doing anything else. They will then work **strictly according to the role and tasks** assigned to that number above.
+   - Example: *"I am Dev 2"* → works as the Frontend Engineer.
+   - Example: *"I am Dev 3"* → works as the Backend Engineer.
+   - Example: *"I am Dev 1"* → works as Lead/QA (must use `/frontend` or `/backend` prefix on every prompt).
+2. **Clear Boundaries:** Frontend (Agent 2) handles anything in `app/` and `src/components/`. Backend (Agent 3) handles anything in `supabase/` and `src/services/`.
+3. **API Contracts:** Agent 3 must define the exact input/output of functions (e.g., QR deduction) so Agent 2 can build the UI without waiting.
+4. **Lead Check:** Agent 1 will regularly test the integration points between Agent 2 and Agent 3 to ensure everything runs smoothly.
